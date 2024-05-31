@@ -2,8 +2,8 @@ package com.lti.model;
 
 public class Move {
 
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
     public int getX() {
         return x;

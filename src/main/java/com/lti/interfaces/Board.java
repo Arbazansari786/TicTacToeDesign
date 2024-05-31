@@ -5,10 +5,10 @@ import com.lti.model.Move;
 
 public interface Board {
 
-    public void applyMove(Move move, Character symbol);
-    public Boolean isWin(Player player);
-    public Boolean isBoardFull();
+     void applyMove(Move move, Character symbol);
+     Boolean isWin(Player player);
+     Boolean isBoardFull();
 
-    public Dimension getDimension();
+     Dimension getDimension();
 
 }

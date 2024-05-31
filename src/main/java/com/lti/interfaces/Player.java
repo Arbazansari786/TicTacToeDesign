@@ -6,11 +6,11 @@ public interface Player {
 
 
 
-    public String getName();
+     String getName();
 
-    public Character getSymbol();
+     Character getSymbol();
 
-    public Move play(Board board);
+     Move play(Board board);
 
 
 }
